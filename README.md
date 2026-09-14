@@ -14,3 +14,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 1 | Perceptron | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-01-Perceptron) |
 | 2 | MLP | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-02-MLP) |
 | 3 | Loss Functions | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-03-Loss-Functions) |
+| 4 | Backpropagation | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-04-Backpropagation) |
