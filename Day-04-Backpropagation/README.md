@@ -1,6 +1,4 @@
-# Day 33 — Backpropagation
-
-> Assuming this follows Day 30 (Bagging Ensembles) + perceptron + loss functions as 31/32 — rename the file if your count is different.
+# Day 4 — Backpropagation
 
 ## What Is Backpropagation
 
