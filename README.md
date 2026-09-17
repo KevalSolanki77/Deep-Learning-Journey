@@ -15,3 +15,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 2 | MLP | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-02-MLP) |
 | 3 | Loss Functions | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-03-Loss-Functions) |
 | 4 | Backpropagation | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-04-Backpropagation) |
+| 5 | Vanishing & Exploding Gradient Problem | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-05-Vanishing-Gradient-Problem) |
