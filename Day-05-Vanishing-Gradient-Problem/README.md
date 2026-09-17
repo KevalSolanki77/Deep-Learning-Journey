@@ -134,17 +134,15 @@ percent_change = abs(100 * (old_weights - new_weights) / old_weights)
 
 ### 3. Proper Weight Initialization (Not Yet Implemented)
 
-"Xavier initialization" and "Glorot initialization" name the same method, after the same person, Xavier Glorot. One technique, not two.
-
-What it does: instead of starting every weight at the same constant, it draws initial weights from a distribution whose variance is scaled by the layer's fan-in and fan-out (roughly `1/fan_in`), so activations and gradients start out neither too small nor too large before training begins. Glorot/Xavier initialization targets sigmoid/tanh networks. **He initialization**, a related but distinct technique named after Kaiming He, is the ReLU counterpart, with a different variance scale (`2/fan_in`). Worth learning both together since they solve the same problem for different activation functions.
+Instead of starting every weight at the same constant, it draws initial weights from a distribution whose variance is scaled by the layer's fan-in and fan-out (roughly `1/fan_in`), so activations and gradients start out neither too small nor too large before training begins. Glorot/Xavier initialization targets sigmoid/tanh networks. **He initialization**, a related but distinct technique named after Kaiming He, is the ReLU counterpart, with a different variance scale (`2/fan_in`). Worth learning both together since they solve the same problem for different activation functions.
 
 ### 4. Batch Normalization (Not Yet Implemented)
 
-Your framing, a layer type, is right. Fuller picture: it's a layer inserted between other layers that normalizes its input batch to zero mean and unit variance, then applies its own learnable scale and shift so the network can undo that normalization where a layer needs to. Keeping activations in a consistent, well-scaled range throughout training stops them, and their gradients, from drifting into the saturated, near-zero-derivative region of activations like sigmoid. That's the widely cited practical reason it helps with vanishing gradients, even though the original paper's stated motivation was reducing "internal covariate shift," the layer's input distribution shifting as earlier layers update during training. Fine to leave as a "learn properly later" item; it's a full topic on its own.
+It's a layer inserted between other layers that normalizes its input batch to zero mean and unit variance, then applies its own learnable scale and shift so the network can undo that normalization where a layer needs to. Keeping activations in a consistent, well-scaled range throughout training stops them, and their gradients, from drifting into the saturated, near-zero-derivative region of activations like sigmoid. That's the widely cited practical reason it helps with vanishing gradients, even though the original paper's stated motivation was reducing "internal covariate shift," the layer's input distribution shifting as earlier layers update during training. Fine to leave as a "learn properly later" item; it's a full topic on its own.
 
 ### 5. Residual Networks / Skip Connections (Not Yet Implemented)
 
-It originates from ResNet, a CNN architecture, but the residual/skip-connection idea is a general building block used anywhere networks get very deep, including Transformers, which We'll hit later in the LLM stage.
+It originates from ResNet, a CNN architecture, 
 
 The mechanism: instead of a block computing `output = F(x)`, a residual block computes `output = F(x) + x`, an identity shortcut that adds the block's input straight to its output. The derivative of that added `x` term with respect to itself is 1, so gradients get an additive path back to earlier layers that bypasses the multiplicative chain-rule product entirely. That's the fix: it doesn't make each multiplicative factor bigger, it gives the gradient a second route that isn't multiplicative at all.
 
