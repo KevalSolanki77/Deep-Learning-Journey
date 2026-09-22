@@ -17,3 +17,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 4 | Backpropagation | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-04-Backpropagation) |
 | 5 | Vanishing & Exploding Gradient Problem | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-05-Vanishing-Gradient-Problem) |
 | 6 | Memoization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-06-Memoization) |
+| 7 | Gradient Descent | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-07-Gradient-Descent) |
