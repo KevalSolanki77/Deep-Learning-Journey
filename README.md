@@ -18,3 +18,6 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 5 | Vanishing & Exploding Gradient Problem | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-05-Vanishing-Gradient-Problem) |
 | 6 | Memoization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-06-Memoization) |
 | 7 | Gradient Descent | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-07-Gradient-Descent) |
+| 8 | Early Stopping | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-08-Early-Stopping) |
+| 9 | Dropout | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-09-Dropout) |
+| 10 | Regularization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-10-Regularization) |
