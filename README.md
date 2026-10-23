@@ -21,3 +21,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 8 | Early Stopping | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-08-Early-Stopping) |
 | 9 | Dropout | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-09-Dropout) |
 | 10 | Regularization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-10-Regularization) |
+| 11 | Activation Functions | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-11-Activation-Functions) |
