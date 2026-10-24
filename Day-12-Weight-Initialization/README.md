@@ -129,7 +129,9 @@ Designed around a specific goal: keep the variance of activations roughly consta
 
 **Glorot Normal.** Draws weights from a normal distribution centered at 0:
 
-$$W \sim \mathcal{N}\left(0,\ \sigma^2\right), \qquad \sigma = \sqrt{\frac{2}{\text{fan\_in} + \text{fan\_out}}}$$
+$$
+w \sim \mathcal{N}\left(0,\sigma^2 I\right), \qquad \sigma = \sqrt{\frac{2}{\mathrm{fan\_in}}}
+$$
 
 ```python
 model = Sequential([
@@ -145,7 +147,9 @@ model = Sequential([
 
 **Glorot Uniform.** Same variance target, drawn from a uniform distribution instead of a normal one:
 
-$$W \sim U\left(-\sqrt{\frac{6}{\text{fan\_in} + \text{fan\_out}}},\ \ \sqrt{\frac{6}{\text{fan\_in} + \text{fan\_out}}}\right)$$
+$$
+W \sim U\left(-\sqrt{\frac{6}{\mathrm{fan_in}+\mathrm{fan_out}}},\sqrt{\frac{6}{\mathrm{fan_in}+\mathrm{fan_out}}}\right)
+$$
 
 ```python
 model = Sequential([
@@ -166,7 +170,9 @@ Glorot's derivation assumes an activation function that's roughly linear and sym
 
 **He Normal.**
 
-$$W \sim \mathcal{N}\left(0,\ \sigma^2\right), \qquad \sigma = \sqrt{\frac{2}{\text{fan\_in}}}$$
+$$
+W \sim \mathcal{N}\left(0,\sigma^2\right), \qquad \sigma = \sqrt{\frac{2}{\mathrm{fan_in}}}
+$$
 
 ```python
 model = Sequential([
@@ -181,7 +187,9 @@ model = Sequential([
 
 **He Uniform.**
 
-$$W \sim U\left(-\sqrt{\frac{6}{\text{fan\_in}}},\ \ \sqrt{\frac{6}{\text{fan\_in}}}\right)$$
+$$
+W \sim U\left(-\sqrt{\frac{6}{\mathrm{fan_in}}},\sqrt{\frac{6}{\mathrm{fan_in}}}\right)
+$$
 
 ```python
 model = Sequential([
