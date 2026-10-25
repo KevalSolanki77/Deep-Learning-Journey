@@ -23,3 +23,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 10 | Regularization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-10-Regularization) |
 | 11 | Activation Functions | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-11-Activation-Functions) |
 | 12 | Weight Initialization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-12-Weight-Initialization) |
+| 13 | Batch Normalization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-13-Batch-Normalization) |
