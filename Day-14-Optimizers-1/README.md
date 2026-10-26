@@ -1,4 +1,4 @@
-# Day 14 (Deep Learning) - Momentum & Nesterov Momentum
+# Day 14  - Momentum & Nesterov Momentum
 
 ## Why Momentum Exists
 
