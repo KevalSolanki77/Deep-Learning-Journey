@@ -1,4 +1,4 @@
-# Day 14  - Momentum & Nesterov Momentum
+# Day 14  - Momentum & Nesterov Accelerated Gradient (NAG)
 
 ## Why Momentum Exists
 
@@ -12,7 +12,7 @@ $$v_t = \beta v_{t-1} + g_t \qquad w_t = w_{t-1} - \eta\, v_t$$
 
 **Why `β` matters quantitatively, not just qualitatively.** Under a steady, unchanging gradient `g`, the velocity recurrence `v_t = β v_{t-1} + g` converges to a fixed point: `v_ss = g / (1 - β)`. That denominator is the entire story. At `β = 0.9`, `1/(1-0.9) = 10`, so a consistent gradient direction gets amplified 10x by the time the velocity settles. At `β = 0.99`, that amplification jumps to 100x. Momentum doesn't just "help a bit" with consistent directions, it compounds them by an amount that grows fast as `β` approaches 1.
 
-## Nesterov Momentum
+## Nesterov Accelerated Gradient (NAG)
 
 The core idea: evaluate the gradient not at the current weights, but at the point momentum is already about to carry you to, the "look-ahead" point. Classical momentum reacts to where you are; Nesterov reacts to where you're headed.
 
