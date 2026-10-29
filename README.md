@@ -26,3 +26,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 13 | Batch Normalization | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-13-Batch-Normalization) |
 | 14 | Optimizers Part 1 | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-14-Optimizers-1) |
 | 15 | Optimizers Part 2 | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-15-Optimizers-2) |
+| 16 | Hyperparameter Tuning | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-16-Hyperparameter-Tuning) |
