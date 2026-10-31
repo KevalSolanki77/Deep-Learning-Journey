@@ -4,7 +4,7 @@
 
 Convolution layers detect local spatial features, but stacking them without downsampling quickly leads to two fundamental bottlenecks: computational explosion and parameter bloat in downstream dense heads.
 
-**Pooling** resolves this by sliding a fixed spatial reduction window across each channel independently. It has **zero learnable parameters** ($\text{Params} = 0$). By default, pooling uses non-overlapping strides equal to the pool window size ($s = \text{pool\_size}$), collapsing spatial neighbourhoods into single representative scalars.
+**Pooling** resolves this by sliding a fixed spatial reduction window across each channel independently. It has **zero learnable parameters** ($\text{Params} = 0$). By default, pooling uses non-overlapping strides equal to the pool window size ($s = \text{pool}_{\text{size}}$), collapsing spatial neighbourhoods into single representative scalars.
 
 This operation forces an intentional architectural tradeoff: it retains **semantic identity** ("what" feature fired) while discarding **precise spatial coordinates** ("where" inside the patch it fired).
 
