@@ -28,3 +28,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 15 | Optimizers Part 2 | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-15-Optimizers-2) |
 | 16 | Hyperparameter Tuning | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-16-Hyperparameter-Tuning) |
 | 17 | Convolutional Layers : Padding & Strides | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-17-Padding-Strides) |
+| 18 | Convolutional Layers : Pooling Layers | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-18-Pooling-Layers) |
