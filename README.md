@@ -30,3 +30,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 17 | Convolutional Layers : Padding & Strides | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-17-Padding-Strides) |
 | 18 | Convolutional Layers : Pooling Layers | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-18-Pooling-Layers) |
 | 19 | CNN Architectures | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-19-CNN-Architectures) |
+| 20 | Cats vs. Dogs Classification | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-20-Cats-vs-Dogs-Classification) |
