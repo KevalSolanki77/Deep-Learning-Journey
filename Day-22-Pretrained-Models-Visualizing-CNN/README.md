@@ -270,11 +270,6 @@ One more feature appears at layer 9: a map that shows only a bright rectangular 
 - **Each map has its own brightness scale.** `plt.imshow` stretches every map to its own minimum and maximum, so a weak response and a strong one can look equally bright. To compare maps, pass the same `vmin` and `vmax` to all of them.
 - **The grids are one image.** Everything above describes how VGG16 responds to this photo. Feature maps show activations on an input, and they do not show what a filter looks for in general. Gradient ascent on the input and Grad-CAM answer those questions.
 
-### Two Bugs in the Part 3 Notebook Code
-
-- **Only the first 64 channels are plotted at every depth.** The loop runs `range(1, features.shape[3]+1)`, and `features` is the 64-channel output from Part 2, not the current `fmap`. Layer 5 has 128 channels (half shown), layer 9 has 256 (a quarter), and layers 13 and 17 have 512 (an eighth). The 8×8 grid holds 64 plots, so the fix is to loop over `range(64)` and label the figure "first 64 of N channels," or to sample channels with a stride. The counts above (such as 16 black maps) describe those first 64 channels and not the full layer.
-- **Titles show indices, not names.** `Layer 2` and `Layer 17` read better as `block1_conv2` and `block5_conv3`, using `model2.layers[i].name`.
-
 ## Putting the Two Halves Together
 
 The filter and feature-map experiments explain why the pretrained model in the first section works. The first layers learn edge and contrast detectors, which any image contains. The middle layers learn textures and shapes that cover fur, metal, and skin. Only the last layers learn parts specific to ImageNet classes. Reusing the early and middle layers transfers real, general knowledge, and the late layers are the part to retrain.
