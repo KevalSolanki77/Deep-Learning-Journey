@@ -32,3 +32,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 19 | CNN Architectures | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-19-CNN-Architectures) |
 | 20 | Cats vs. Dogs Classification | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-20-Cats-vs-Dogs-Classification) |
 | 21 | Data Augmentation | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-21-Data-Augmentation) |
+| 22 | Pretrained Models & Visualizing CNN | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-22-Pretrained-Models-Visualizing-CNN) |
