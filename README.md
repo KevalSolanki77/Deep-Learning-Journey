@@ -33,3 +33,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 20 | Cats vs. Dogs Classification | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-20-Cats-vs-Dogs-Classification) |
 | 21 | Data Augmentation | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-21-Data-Augmentation) |
 | 22 | Pretrained Models & Visualizing CNN | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-22-Pretrained-Models-Visualizing-CNN) |
+| 23 | Transfer Learning | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-23-Transfer-Learning) |
