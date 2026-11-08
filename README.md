@@ -36,3 +36,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 23 | Transfer Learning | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-23-Transfer-Learning) |
 | 24 | Non-linear Models | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-24-Non-Linear-Models) |
 | 25 | Basics of RNNs | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-25-Basics-of-RNNs) |
+| 26 | LSTM | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-26-LSTM) |
