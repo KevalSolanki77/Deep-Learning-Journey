@@ -37,3 +37,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 24 | Non-linear Models | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-24-Non-Linear-Models) |
 | 25 | Basics of RNNs | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-25-Basics-of-RNNs) |
 | 26 | LSTM | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-26-LSTM) |
+| 27 | GRU | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-27-GRU) |
