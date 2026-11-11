@@ -39,3 +39,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 26 | LSTM | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-26-LSTM) |
 | 27 | GRU | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-27-GRU) |
 | 28 | Deep RNNs & Bidirectional RNNs | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-28-Deep-RNN-&-Bidirectional-RNNs) |
+| 29 | Encoder-Decoder | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-29-Encoder-Decoder) |
