@@ -105,7 +105,7 @@ Adding Bahdanau Attention to an Encoder-Decoder LSTM in Keras requires four stru
 
 ## 5. Complete Hands-On Code (English-to-Hindi NMT)
 
-![Notebook](https://github.com/KevalSolanki77/Deep-Learning-Journey/blob/main/Day-30-Attention-Mechanism/Attention-Mechanism.ipynb)
+[Notebook](https://github.com/KevalSolanki77/Deep-Learning-Journey/blob/main/Day-30-Attention-Mechanism/Attention-Mechanism.ipynb)
 
 ---
 
