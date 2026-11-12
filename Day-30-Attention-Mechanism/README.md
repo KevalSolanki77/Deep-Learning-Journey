@@ -84,22 +84,7 @@ Where:
 
 ### Visualizing the Attention Pipeline
 
-```
-Encoder States:     h_1           h_2           h_3      ("How"  "are"  "you?")
-                     │             │             │
-                     ▼             ▼             ▼
-Alignment Scores:   e_{i,1}       e_{i,2}       e_{i,3}  <── Scored with Decoder State s_{i-1}
-                     │             │             │
-                     ▼             ▼             ▼
-Softmax Weights:    α_{i,1}       α_{i,2}       α_{i,3}  (Probabilities summing to 1.0)
-                     │             │             │
-                     └─────────────┼─────────────┘
-                                   ▼
-                          Weighted Sum: c_i
-                                   │
-                                   ▼
-             Concatenate: [ Decoder Output ; c_i ] ──▶ Dense (Softmax) ──▶ Next Word
-```
+![Bahdanau Additive Attention Pipeline](https://i.ibb.co/SDDsDtQq/attention.png)
 
 ---
 
