@@ -60,7 +60,9 @@ At each decoding time step $t$:
    $$e_{ts} = \operatorname{score}(h_t, \bar{h}_s)$$
 3. **Normalize via Softmax:**
    Convert raw alignment scores into the attention weight vector $a_t$:
-   $$a_t(s) = \frac{\exp(\operatorname{score}(h_t, \bar{h}_s))}{\sum_{s'=1}^{T_x} \exp(\operatorname{score}(h_t, \bar{h}_{s'}))}$$
+   $$
+   a_t(s) = \frac{\exp(\operatorname{score}(h_t, \bar{h}_s))}{\sum_{s'=1}^{T_x} \exp(\operatorname{score}(h_t, \bar{h}_{s'}))}
+   $$
 4. **Compute Context Vector ($c_t$):**
    Take the weighted average of all encoder hidden states:
    $$c_t = \sum_{s=1}^{T_x} a_t(s)\bar{h}_s$$
