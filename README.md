@@ -41,3 +41,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 28 | Deep RNNs & Bidirectional RNNs | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-28-Deep-RNN-&-Bidirectional-RNNs) |
 | 29 | Encoder-Decoder | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-29-Encoder-Decoder) |
 | 30 | Attention Mechanism | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-30-Attention-Mechanism) |
+| 31 | Luong Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-31-Luong-Attention) |
