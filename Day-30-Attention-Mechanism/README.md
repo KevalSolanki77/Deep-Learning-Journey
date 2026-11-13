@@ -17,9 +17,6 @@ A comprehensive theoretical and practical guide exploring why traditional Sequen
    * [Visualizing the Attention Pipeline](#visualizing-the-attention-pipeline)
 4. [4-Step Keras / TensorFlow Implementation Guide](#4-4-step-keras--tensorflow-implementation-guide)
 5. [Complete Hands-On Code (English-to-Hindi NMT)](#5-complete-hands-on-code-english-to-hindi-nmt)
-   * [Step 1: Data Cleaning & Vectorization](#step-1-data-cleaning--vectorization)
-   * [Step 2: Training Model with AdditiveAttention](#step-2-training-model-with-additiveattention)
-   * [Step 3: Standalone Inference Pipeline](#step-3-standalone-inference-pipeline)
 6. [Summary & Key Takeaways](#6-summary--key-takeaways)
 
 ---
