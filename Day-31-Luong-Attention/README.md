@@ -57,12 +57,13 @@ At each decoding time step $t$:
    Compute the current decoder hidden state $h_t$ from the previous hidden state $h_{t-1}$ and current input embedding.
 2. **Compute Alignment Scores:**
    Compare the current decoder state $h_t$ with every encoder hidden state $\bar{h}_s$:
-   $$e_{ts} = \operatorname{score}(h_t, \bar{h}_s)$$
+
+$$e_{ts} = \mathrm{score}(h_t, \bar{h}_s)$$
+
 3. **Normalize via Softmax:**
    Convert raw alignment scores into the attention weight vector $a_t$:
-   $$
-   a_t(s) = \frac{\exp(\operatorname{score}(h_t, \bar{h}_s))}{\sum_{s'=1}^{T_x} \exp(\operatorname{score}(h_t, \bar{h}_{s'}))}
-   $$
+   $$a_t(s) = \frac{\exp(\mathrm{score}(h_t, \bar{h}_s))}{\sum_{s'=1}^{T_x} \exp(\mathrm{score}(h_t, \bar{h}_{s'}))}$$
+
 4. **Compute Context Vector ($c_t$):**
    Take the weighted average of all encoder hidden states:
    $$c_t = \sum_{s=1}^{T_x} a_t(s)\bar{h}_s$$
@@ -71,27 +72,28 @@ At each decoding time step $t$:
    $$\tilde{h}_t = \tanh\left(W_c [c_t \,;\, h_t]\right)$$
 6. **Predict Target Word:**
    Pass $\tilde{h}_t$ through the final `Dense` softmax layer:
-   $$P(y_t \mid y_{<t}, x) = \operatorname{softmax}(W_s \tilde{h}_t)$$
+   $$P(y_t \mid y_{<t}, x) = \mathrm{softmax}(W_s \tilde{h}_t)$$
 
 ### Luong's Three Alignment Score Functions
 
-Luong et al. proposed three ways to compute $\operatorname{score}(h_t, \bar{h}_s)$:
+Luong et al. proposed three ways to compute $\mathrm{score}(h_t, \bar{h}_s)$:
 
 1. **Dot (Pure Multiplicative):**
-   $$\operatorname{score}(h_t, \bar{h}_s) = h_t^\top \bar{h}_s$$
+   $$\mathrm{score}(h_t, \bar{h}_s) = h_t^\top \bar{h}_s$$
    *Fastest and parameter-free; requires encoder and decoder hidden dimensions to match.*
 
 2. **General (Bilinear):**
-   $$\operatorname{score}(h_t, \bar{h}_s) = h_t^\top W_a \bar{h}_s$$
+   $$\mathrm{score}(h_t, \bar{h}_s) = h_t^\top W_a \bar{h}_s$$
    *Introduces a single learnable weight matrix $W_a$, allowing encoder and decoder dimensions to differ.*
 
 3. **Concat (Additive variant):**
-   $$\operatorname{score}(h_t, \bar{h}_s) = v_a^\top \tanh(W_a [h_t \,;\, \bar{h}_s])$$
-   *Concatenates both states into a single projection matrix $W_a$.*
+   $$\mathrm{score}(h_t, \bar{h}_s) = v_a^\top \tanh(W_a [h_t \,;\, \bar{h}_s])$$
+   *Concatenates both states into a single projection matrix $`W_a`$.*
 
 ### Global vs. Local Attention
 
-* **Global Attention:** Considers all encoder hidden states $\bar{h}_1 \dots \bar{h}_{T_x}$ when deriving $c_t$ (implemented by `tf.keras.layers.Attention()`).
+* **Global Attention:** Considers all encoder hidden states $`\bar{h}_1 \dots \bar{h}_{T_x}`$
+ when deriving $c_t$ (implemented by `tf.keras.layers.Attention()`).
 * **Local Attention:** Predicts a single aligned source position $p_t \in [1, T_x]$ and applies a Gaussian-weighted window $[p_t - D, p_t + D]$ around it, reducing computational cost on very long sequences.
 
 ---
