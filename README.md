@@ -43,3 +43,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 30 | Attention Mechanism | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-30-Attention-Mechanism) |
 | 31 | Luong Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-31-Luong-Attention) |
 | 32 | Self Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-32-Self-Attention) |
+| 33 | Multi-Head Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-33-Multi-Head-Attention) |
