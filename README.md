@@ -45,3 +45,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 32 | Self Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-32-Self-Attention) |
 | 33 | Multi-Head Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-33-Multi-Head-Attention) |
 | 34 | Positional Encoding | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-34-Positional-Encoding) |
+| 35 | Layer Normalization & Complete Encoder Block | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-35-Layer-Normalization) |
