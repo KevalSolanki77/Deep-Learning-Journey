@@ -47,4 +47,4 @@ Documenting my day-by-day progress as I learn DL concepts, code, and mistakes al
 | 34 | Positional Encoding | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-34-Positional-Encoding) |
 | 35 | Layer Normalization & Complete Encoder Block | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-35-Layer-Normalization) |
 | 36 | Masked Multi-Head Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-36-Masked-Multi-Head-Attention) |
-| 37 | Cross Attention | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-37-Cross-Attention) |
+| 37 | Cross Attention & Transformer Architecture | ✅ | [Link](https://github.com/KevalSolanki77/Deep-Learning-Journey/tree/main/Day-37-Cross-Attention-&-Trasnformer-Architecture) |
